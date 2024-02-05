@@ -1,0 +1,119 @@
+<!-- Declaración del tipo de documento HTML5 -->
+<!DOCTYPE html>
+
+<!-- Elemento raíz que engloba todo el contenido HTML -->
+<html lang="es">
+  <head>
+    <!-- Metaetiqueta para la codificación de caracteres UTF-8 -->
+    <meta charset="UTF-8" />
+    
+    <!-- Metaetiqueta para la configuración de la visualización en dispositivos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Título de la página que aparecerá en la pestaña del navegador -->
+    <title>Maquetación figma</title>
+    
+    <!-- Enlace a la hoja de estilo local -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Enlace a Google Fonts para la fuente Abhaya Libre y Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    
+    <!-- Enlace a la hoja de estilo de Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  
+  <body>
+    <!-- Encabezado de la página -->
+    <header>
+      <!-- Título principal -->
+      <h1>Maquetación Figma</h1>
+    </header>
+    
+    <!-- Sección principal de la página -->
+    <main>
+      <!-- Sección principal con dos columnas -->
+      <section class="main-section">
+        <!-- Columna de información -->
+        <div class="info-column">
+          <!-- Icono de la aplicación -->
+          <div class="info-row-icon">
+            <img src="images/flag.png" alt="Descripción de la imagen 1" style="float: left; margin-right: 10px" />
+          </div>
+          
+          <!-- Etiqueta de la aplicación -->
+          <div class="info-row-app">APP</div>
+          
+          <!-- Etiqueta de la categoría (GOLF) -->
+          <div class="info-row-golf">GOLF</div>
+
+          <!-- Título descriptivo -->
+          <div class="info-row-title">Tu concierge de confianza</div>
+
+          <!-- Contenido descriptivo -->
+          <div class="info-row-content">
+            Lorem ipsum dolor sit amet consectetur. Morbi eu amet auctor arcu
+            dignissim ornare nec. Facilisis velit mauris facilisis sit ante
+            ligula pellentesque odio. Vitae integer elit laoreet pellentesque.
+          </div>
+
+          <!-- Botón de descarga -->
+          <div class="info-row-download">Descargar</div>
+
+          <!-- Botones de tiendas de aplicaciones -->
+          <div class="info-row-buttons">
+            <button class="button button-store">
+              <i class="fab fa-brands fa-apple"></i> App Store
+            </button>
+
+            <button class="button button-store">
+              <i class="fab fa-android"></i> Play Store
+            </button>
+          </div>
+        </div>
+        
+        <!-- Columna de imagen -->
+        <div class="image-column">
+          <!-- Contenido encima de la imagen del teléfono -->
+          <div class="card-above-image">
+            <!-- Elementos dentro de la tarjeta -->
+            <div class="ellipse">
+              <img src="images/ellipse.png" alt="Elipse" />
+            </div>
+            
+            <div class="avatar">
+              <img src="images/avatar.png" alt="Avatar" />
+            </div>
+            
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Morbi eu amet auctor
+                arcu dignissim ornare nec.
+              </p>
+            </div>
+            
+            <!-- Contenedor de botones -->
+            <div class="buttons-container">
+              <!-- Botón con información de puntuación total -->
+              <button class="button button-white">
+                TOTAL SCORE<br /><span class="total-score">64,953</span>
+              </button>
+              
+              <!-- Botón de aceptar -->
+              <button class="button button-green">ACEPTAR</button>
+            </div>
+          </div>
+          
+          <!-- Imagen del teléfono -->
+          <img class="img-phone" src="images/phone.png" alt="Descripción de la imagen" />
+        </div>
+      </section>
+    </main>
+    
+    <!-- Pie de página -->
+    <footer>
+      <!-- Información de copyright -->
+      <p>Copyright &copy; 2024</p>
+    </footer>
+  </body>
+</html>

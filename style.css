@@ -1,0 +1,274 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Estilos para el título principal */
+h1 {
+    font-size: 21px;
+    margin: 5px;
+}
+
+/* Estilos para la sección principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para la sección principal con dos columnas */
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 98%;
+    margin: 0;
+}
+
+/* Estilos para la columna de información */
+.info-column {
+    flex: 2;
+}
+
+/* Estilos para la imagen del teléfono */
+.img-phone {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 620px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 1em;
+}
+
+/* Estilos para el contenedor de la tarjeta sobre la imagen del teléfono */
+.card-container {
+    position: relative;
+}
+
+/* Estilos para la tarjeta sobre la imagen del teléfono */
+.card-above-image {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 180px;
+    height: 175px;
+    max-height: 175px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 13px 0px #00000026;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 0px 0px;
+    border-radius: 8px;
+}
+
+/* Estilos para la imagen de avatar dentro de la tarjeta */
+.avatar img {
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}
+
+/* Estilos para el contenedor de la imagen de avatar */
+.avatar {
+    position: relative;
+}
+
+/* Estilos para el contenido de la tarjeta */
+.card-content {
+    text-align: center;
+    font-size: 8px;
+}
+
+/* Estilos para el contenedor de botones en la tarjeta */
+.buttons-container {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+
+/* Estilos generales para botones */
+.button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para el botón blanco en la tarjeta */
+.button-white {
+    font-size: 8px;
+    background-color: #ffffff;
+    color: #999999;
+    text-align: start;
+    padding-left: 15px;
+}
+
+/* Estilos para el botón verde en la tarjeta */
+.button-green {
+    font-size: 8px;
+    background-color: #07C16D;
+    color: #ffffff;
+}
+
+/* Estilos para los párrafos */
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Estilos para la columna de imágenes */
+.image-column {
+    position: relative;
+    padding-left: 40px;
+}
+
+/* Estilos para la puntuación total en la tarjeta */
+.total-score {
+    color: #000000;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* Estilos para la fila de iconos de información */
+.info-row-icon {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* Estilos para la etiqueta de la aplicación */
+.info-row-app {
+    font-weight: 500;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+/* Estilos para el título de la información */
+.info-row-title {
+    font-weight: 400;
+    padding-left: 5px;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+
+/* Estilos para la etiqueta de la categoría GOLF */
+.info-row-golf {
+    padding-left: 5px;
+    font-family: "Abhaya Libre", serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+/* Estilos para el icono de la fila de información */
+.info-row-icon img {
+    width: 76px;
+    height: 76px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+/* Estilos para el contenido de la fila de información */
+.info-row-content {
+    font-size: 15px;
+    text-align: justify;
+    margin: 0px 10px 80px 10px;
+}
+
+/* Estilos para la etiqueta de descarga en la fila de información */
+.info-row-download {
+    padding-left: 5px;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Estilos para el contenedor de botones en la fila de información */
+.info-row-buttons {
+    display: flex;
+    padding-left: 5px;
+}
+
+/* Estilos para los botones de tiendas de aplicaciones */
+.button-store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #071E23;
+    color: #fff;
+    padding: 10px 15px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    width: 144px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los íconos dentro de los botones de tiendas de aplicaciones */
+.button-store i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+/* Estilos al pasar el mouse sobre los botones de tiendas de aplicaciones */
+.button-store:hover {
+    background-color: #07C16D;
+}
+
+/* Estilos para la elipse en la tarjeta sobre la imagen del teléfono */
+.ellipse {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    z-index: 2;
+}
+
+/* Estilos para la imagen dentro de la elipse */
+.ellipse img {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
+
+/* Estilos responsivos para pantallas pequeñas (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    .image-column {
+        flex-basis: 100%;
+    }
+
+    .img-phone {
+        max-height: none;
+    }
+
+    .card-above-image {
+        left: 30px;
+    }
+}
+
+/* Estilos responsivos para pantallas muy pequeñas (max-width: 571px) */
+@media screen and (max-width: 571px) {
+    .card-above-image {
+        position: static;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+
+    .image-column {
+        position: relative;
+    }
+}
